@@ -1,0 +1,39 @@
+{
+  "sidenav": [
+    {
+      "name": "Videos",
+      "icon": "fas fa-photo-video",
+      "list": [
+        "licenciaturas",
+        "talleres",
+        "eventos"
+      ]
+    },
+    {
+      "name": "Fotografías 360",
+      "icon": "fas fa-street-view",
+      "list": [
+        "Salón Manuel",
+        "Salón Rafael",
+        "Salón Sergio",
+        "Salón Pompeyo",
+        "Salón Vicente",
+        "Salón Alfredo",
+        "Salón Alva Edison",
+        "Sala de Juicios Orales",
+        "Sala Magna",
+        "Biblioteca",
+        "Salón Guadalupe",
+        "Salones Honoris Causa",
+        "Salón Jorge"
+      ]
+    },
+    {
+      "name": "Fotografías",
+      "icon": "far fa-images",
+      "list": [
+        "Área de Investigación Foránea"
+      ]
+    }
+  ]
+}

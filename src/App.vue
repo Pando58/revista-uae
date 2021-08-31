@@ -14,8 +14,9 @@
 import Header from './components/Header.vue'
 import Sidenav from './components/Sidenav.vue'
 import HelloWorld from './components/HelloWorld.vue'
+import contenido from './contenido.json'
 
-import { ref } from 'vue'
+import { ref, onMounted } from 'vue'
 
 export default {
   components: {
@@ -23,8 +24,12 @@ export default {
     Sidenav,
     HelloWorld
   },
-  setup() {
+  setup() {    
     const snav = ref(null);
+
+    onMounted(() => {
+      snav.value.menu = contenido.sidenav;
+    });
 
     const openSidenav = () => {
       snav.value.show();
