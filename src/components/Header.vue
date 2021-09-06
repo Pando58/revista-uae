@@ -13,7 +13,7 @@
 <script>
 import { computed } from 'vue'
 import { useRoute } from 'vue-router'
-import contenido from '@/contenido.json'
+import { sidenav } from '@/contenido.json'
 
 export default {
   emits: ['openSidenav'],
@@ -23,7 +23,7 @@ export default {
     const title = computed(() => {
       let found = null;
 
-      contenido.sidenav.some(i => {
+      sidenav.some(i => {
         const result = i.list.find(j => +j.sec === +route.query.sec);
 
         if (result !== undefined) {

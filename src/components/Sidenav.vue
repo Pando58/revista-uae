@@ -25,7 +25,7 @@
 <script>
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
-import contenido from '@/contenido.json'
+import { sidenav } from '@/contenido.json'
 
 export default {
   setup() {
@@ -33,7 +33,7 @@ export default {
         
     const active = ref(false);
     const showing = ref(false);
-    const menu = ref(contenido.sidenav);
+    const menu = ref(sidenav);
 
     const hide = () => {
       active.value = false;
