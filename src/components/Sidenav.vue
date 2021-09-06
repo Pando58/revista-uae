@@ -54,7 +54,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="postcss" scoped>
 .overlay {
   @apply bg-opacity-0 invisible;
 }

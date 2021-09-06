@@ -39,13 +39,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-  /* button:hover {
-    background: #FFF3;
-  }
-
-  button:active {
-    background: #0002;
-  } */
-</style>
