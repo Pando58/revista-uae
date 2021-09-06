@@ -7,7 +7,14 @@
             <i class="text-lg mr-2" :class="entry.icon"></i>
             <span class="text-xs font-bold uppercase">{{ entry.name }}</span>
           </li>
-          <li class="p-3 pl-4 capitalize" v-for="item in entry.list" v-bind:key="item">{{ item }}</li>
+          <li
+            class="p-3 pl-4 select-none cursor-pointer bg-black bg-opacity-0 hover:bg-opacity-5 transition duration-150"
+            v-for="item in entry.list"
+            v-bind:key="item.sec"
+            @click="navTo(item.sec)"
+          >
+            {{ item.name }}
+          </li>
           <li v-if="index < menu.length - 1"><hr class="m-2"></li>
         </div>
       </ul>
@@ -17,9 +24,12 @@
 
 <script>
 import { ref } from 'vue'
+import { useRouter } from 'vue-router'
 
 export default {
   setup() {
+    const router = useRouter();
+        
     const active = ref(false);
     const showing = ref(false);
     const menu = ref(null);
@@ -33,8 +43,12 @@ export default {
       active.value = true;
       showing.value = true;
     };
+    
+    const navTo = (sec) => {
+      router.push({ path: '/', query: { sec: sec } })
+    }
 
-    return { active, showing, menu, show, hide };
+    return { active, showing, menu, hide, show, navTo };
   },
 }
 </script>

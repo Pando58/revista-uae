@@ -4,35 +4,35 @@
       "name": "Videos",
       "icon": "fas fa-photo-video",
       "list": [
-        "licenciaturas",
-        "talleres",
-        "eventos"
+        { "name": "Licenciaturas", "sec": 0 },
+        { "name": "Talleres", "sec": 1 },
+        { "name": "Eventos", "sec": 2 }
       ]
     },
     {
       "name": "Fotografías 360",
       "icon": "fas fa-street-view",
       "list": [
-        "Salón Manuel",
-        "Salón Rafael",
-        "Salón Sergio",
-        "Salón Pompeyo",
-        "Salón Vicente",
-        "Salón Alfredo",
-        "Salón Alva Edison",
-        "Sala de Juicios Orales",
-        "Sala Magna",
-        "Biblioteca",
-        "Salón Guadalupe",
-        "Salones Honoris Causa",
-        "Salón Jorge"
+        { "name": "Salón Manuel", "sec": 3},
+        { "name": "Salón Rafael", "sec": 4},
+        { "name": "Salón Sergio", "sec": 5},
+        { "name": "Salón Pompeyo", "sec": 6},
+        { "name": "Salón Vicente", "sec": 7},
+        { "name": "Salón Alfredo", "sec": 8},
+        { "name": "Salón Alva Edison", "sec": 9},
+        { "name": "Sala de Juicios Orales", "sec": 10},
+        { "name": "Sala Magna", "sec": 11},
+        { "name": "Biblioteca", "sec": 12},
+        { "name": "Salón Guadalupe", "sec": 13},
+        { "name": "Salones Honoris Causa", "sec": 14},
+        { "name": "Salón Jorge", "sec": 15}
       ]
     },
     {
       "name": "Fotografías",
       "icon": "far fa-images",
       "list": [
-        "Área de Investigación Foránea"
+        { "name": "Área de Investigación Foránea", "sec": 16 }
       ]
     }
   ]
