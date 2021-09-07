@@ -21,6 +21,8 @@ export default {
     const route = useRoute();
     
     const title = computed(() => {
+      if (!route.query.hasOwnProperty('sec')) return '';
+      
       let found = null;
 
       sidenav.some(i => {
