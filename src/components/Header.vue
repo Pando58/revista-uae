@@ -11,31 +11,12 @@
 </template>
 
 <script>
-import { computed } from 'vue'
-import { useRoute } from 'vue-router'
-import { sidenav } from '@/contenido.json'
+import { getTitle } from '@/convertedUrlData.js'
 
 export default {
   emits: ['openSidenav'],
   setup() {
-    const route = useRoute();
-    
-    const title = computed(() => {
-      if (!route.query.hasOwnProperty('sec')) return '';
-      
-      let found = null;
-
-      sidenav.some(i => {
-        const result = i.list.find(j => +j.sec === +route.query.sec);
-
-        if (result !== undefined) {
-          found = result;
-          return true;
-        }
-      })
-
-      return found.name;
-    });
+    const title = getTitle();
 
     return { title };
   }
