@@ -11,11 +11,11 @@
 </template>
 
 <script>
+import { ref, onBeforeMount } from 'vue'
 import Header from '@/components/Header.vue'
 import Sidenav from '@/components/Sidenav.vue'
 import HelloWorld from '@/components/HelloWorld.vue'
-
-import { ref } from 'vue'
+import { formatURL } from '@/convertedUrlData.js'
 
 export default {
   components: {
@@ -25,6 +25,10 @@ export default {
   },
   setup() {    
     const snav = ref(null);
+
+    onBeforeMount(() => {
+      formatURL();
+    });
 
     const openSidenav = () => {
       snav.value.show();

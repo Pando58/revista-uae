@@ -13,19 +13,19 @@
       "name": "Fotografías 360",
       "icon": "fas fa-street-view",
       "list": [
-        { "name": "Salón Manuel", "sec": 3},
-        { "name": "Salón Rafael", "sec": 4},
-        { "name": "Salón Sergio", "sec": 5},
-        { "name": "Salón Pompeyo", "sec": 6},
-        { "name": "Salón Vicente", "sec": 7},
-        { "name": "Salón Alfredo", "sec": 8},
-        { "name": "Salón Alva Edison", "sec": 9},
-        { "name": "Sala de Juicios Orales", "sec": 10},
-        { "name": "Sala Magna", "sec": 11},
-        { "name": "Biblioteca", "sec": 12},
-        { "name": "Salón Guadalupe", "sec": 13},
-        { "name": "Salones Honoris Causa", "sec": 14},
-        { "name": "Salón Jorge", "sec": 15}
+        { "name": "Salón Manuel", "sec": 3 },
+        { "name": "Salón Rafael", "sec": 4 },
+        { "name": "Salón Sergio", "sec": 5 },
+        { "name": "Salón Pompeyo", "sec": 6 },
+        { "name": "Salón Vicente", "sec": 7 },
+        { "name": "Salón Alfredo", "sec": 8 },
+        { "name": "Salón Alva Edison", "sec": 9 },
+        { "name": "Sala de Juicios Orales", "sec": 10 },
+        { "name": "Sala Magna", "sec": 11 },
+        { "name": "Biblioteca", "sec": 12 },
+        { "name": "Salón Guadalupe", "sec": 13 },
+        { "name": "Salones Honoris Causa", "sec": 14 },
+        { "name": "Salón Jorge", "sec": 15 }
       ]
     },
     {
@@ -33,6 +33,54 @@
       "icon": "far fa-images",
       "list": [
         { "name": "Área de Investigación Foránea", "sec": 16 }
+      ]
+    }
+  ],
+
+  "sections": [
+    {
+      "sec": null,
+      "data": {
+        "type": "template",
+        "html": "<p>Introducción a la <b>revista</b></p>"
+      }
+    },
+    {
+      "sec": 0,
+      "list": "videos",
+      "data": {
+        "type": "template",
+        "html": "<p>Introducción a la sección <b>videos</b></p>"
+      },
+      "elements": [
+        {
+          "id": 0,
+          "data": {
+            "type": "video",
+            "url": "",
+            "title": ""
+          }
+        },
+        {
+          "id": 1,
+          "data": {
+            "type": "video",
+            "url": "",
+            "title": ""
+          }
+        }
+      ]
+    }
+  ],
+
+  "lists": [
+    {
+      "list": "videos",
+      "urlPrefix": "",
+      "urlSuffix": "",
+      "content": [
+        { "imgUrl": "", "title": "", "id": 0 },
+        { "imgUrl": "", "title": "", "id": 1 }
       ]
     }
   ]
