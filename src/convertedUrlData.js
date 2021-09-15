@@ -69,13 +69,13 @@ const getSectionContent = () => {
           if (!idContent) return null;
 
           if (idContent.hasOwnProperty('data')) {
-            return JSON.stringify(idContent.data);
+            return idContent.data;
           }
         }
       }
 
       if (secContent.hasOwnProperty('data')) {
-        return JSON.stringify(secContent.data);
+        return secContent.data;
       }
 
       return null;

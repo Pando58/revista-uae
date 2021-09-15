@@ -2,7 +2,12 @@
   <Sidenav ref="snav"></Sidenav>
   <Header @openSidenav="openSidenav"></Header>
   <div class="p-3">
-    <p>{{ content }}</p>
+    <template v-if="content.type === 'template'">
+      <div v-html="content.html"></div>
+    </template>
+    <template v-else-if="content.type === 'video'">
+      <iframe width="560" height="315" :src="`https://www.youtube.com/embed/${content.v}`" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </template>
     
     <!-- Contenido (Descripción si no se especifíca un ID, de lo contrario mostrar el video / 360 / fotos) -->
     <!-- División -->
