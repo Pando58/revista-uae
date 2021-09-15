@@ -6,7 +6,20 @@
       <div v-html="content.html"></div>
     </template>
     <template v-else-if="content.type === 'video'">
-      <iframe width="560" height="315" :src="`https://www.youtube.com/embed/${content.v}`" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="p-4 sm:p-10 md:px-20 flex justify-center">
+        <div class="max-w-screen-lg w-full">
+          <div class="relative" style="padding-top: 56.25%">
+            <iframe
+              :src="`https://www.youtube.com/embed/${content.v}`"
+              class="absolute inset-0 w-full h-full"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <h3 class="text-center font-semibold sm:text-2xl lg:text-3xl mt-1 sm:mt-4">{{ content.title }}</h3>
+        </div>
+      </div>
     </template>
     
     <!-- Contenido (Descripción si no se especifíca un ID, de lo contrario mostrar el video / 360 / fotos) -->
