@@ -1,6 +1,13 @@
 {
   "sidenav": [
     {
+      "name": "",
+      "icon": "",
+      "list": [
+        { "name": "Introducción", "sec": null }
+      ]
+    },
+    {
       "name": "Videos",
       "icon": "fas fa-photo-video",
       "list": [
@@ -50,23 +57,49 @@
       "list": "videos",
       "data": {
         "type": "template",
-        "html": "<p>Introducción a la sección <b>videos</b></p>"
+        "html": "<p>Introducción a la sección <b>licenciaturas</b></p>"
       },
       "elements": [
         {
           "id": 0,
           "data": {
             "type": "video",
-            "url": "",
-            "title": ""
+            "v": "ZmxBw_w5nqA",
+            "title": " Diseño Gráfico"
           }
         },
         {
           "id": 1,
           "data": {
             "type": "video",
-            "url": "",
-            "title": ""
+            "v": "hZD-LzigJBE",
+            "title": "Administración y Gestión Empresarial"
+          }
+        }
+      ]
+    },
+    {
+      "sec": 1,
+      "list": "videos",
+      "data": {
+        "type": "template",
+        "html": "<p>Introducción a la sección <b>talleres</b></p>"
+      },
+      "elements": [
+        {
+          "id": 0,
+          "data": {
+            "type": "video",
+            "v": "EJ-ieHfdCa4",
+            "title": " Acondicionamiento Físico"
+          }
+        },
+        {
+          "id": 1,
+          "data": {
+            "type": "video",
+            "v": "O8N6yThba9s",
+            "title": "Ajedrez"
           }
         }
       ]

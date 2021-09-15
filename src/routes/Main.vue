@@ -2,7 +2,7 @@
   <Sidenav ref="snav"></Sidenav>
   <Header @openSidenav="openSidenav"></Header>
   <div class="p-3">
-    <HelloWorld msg="Test from parent element" />
+    <p>{{ content }}</p>
     
     <!-- Contenido (Descripción si no se especifíca un ID, de lo contrario mostrar el video / 360 / fotos) -->
     <!-- División -->
@@ -15,7 +15,7 @@ import { ref, onBeforeMount } from 'vue'
 import Header from '@/components/Header.vue'
 import Sidenav from '@/components/Sidenav.vue'
 import HelloWorld from '@/components/HelloWorld.vue'
-import { formatURL } from '@/convertedUrlData.js'
+import { formatURL, getSectionContent } from '@/convertedUrlData.js'
 
 export default {
   components: {
@@ -25,6 +25,7 @@ export default {
   },
   setup() {    
     const snav = ref(null);
+    const content = getSectionContent();
 
     onBeforeMount(() => {
       formatURL();
@@ -34,7 +35,7 @@ export default {
       snav.value.show();
     };
 
-    return { snav, openSidenav }
+    return { snav, content, openSidenav };
   }
 }
 

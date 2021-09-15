@@ -29,12 +29,14 @@ const getTitle = () => {
   const route = useRoute();
 
   const title = computed(() => {
-    if (!route.query.hasOwnProperty('sec')) return 'Revista UAE';
+    formatURL();
 
+    const sec = route.query.sec === null || route.query.sec === undefined ? null : parseInt(route.query.sec);
+    
     let found = null;
 
     sidenav.some(i => {
-      const result = i.list.find(j => +j.sec === +route.query.sec);
+      const result = i.list.find(j => j.sec === sec);
 
       if (result !== undefined) {
         found = result;
@@ -42,7 +44,7 @@ const getTitle = () => {
       }
     })
 
-    return found ? found.name : null;
+    return (found || {}).name || null;
   });
 
   return title;
@@ -50,21 +52,35 @@ const getTitle = () => {
 
 const getSectionContent = () => {
   const route = useRoute();
+  
+  return computed(() => {
+    const sec = route.query.hasOwnProperty('sec') && !isNaN(parseInt(route.query.sec)) ? parseInt(route.query.sec) : null;
+    const id = route.query.hasOwnProperty('id') ? parseInt(route.query.id) : null;
+    
+    return (() => {
+      const secContent = sections.find(i => i.sec === sec);
 
-  const getSec = () => {
-    if (route.query.hasOwnProperty('sec')) {
-      return route.query.sec;
-    }
+      if (!secContent) return null;
 
-    return null;
-  }
+      if (id !== null) {
+        if (secContent.hasOwnProperty('elements')) {
+          const idContent = secContent.elements.find(i => i.id === id);
 
-  const sec = route.query.hasOwnProperty('sec') ? route.query.sec : null;
+          if (!idContent) return null;
 
-  // console.log(sec);
+          if (idContent.hasOwnProperty('data')) {
+            return JSON.stringify(idContent.data);
+          }
+        }
+      }
 
+      if (secContent.hasOwnProperty('data')) {
+        return JSON.stringify(secContent.data);
+      }
 
-  console.log();
+      return null;
+    })();
+  });
 }
 
-export { getTitle, getSectionContent, formatURL };
+export { formatURL, getTitle, getSectionContent };
