@@ -23,6 +23,19 @@
     </template>
     
     <hr class="border-black border-opacity-20 my-1 mx-2 sm:mx-6">
+
+    <div class="flex flex-wrap justify-center">
+      <div class="w-44 sm:w-56 m-4" v-for="i in [1,1,1,1,1,1,1]" :key="i">
+        <h6 class="text-center text-sm font-semibold mb-1">Lic. en Administración y Gestión Empresarial</h6>
+        <div class="relative" style="padding-top: 56.25%">
+          <img
+            class="absolute inset-0 w-full h-full object-cover shadow-md cursor-pointer transform hover:scale-110 transition duration-150"
+            src="https://img.youtube.com/vi/i4PrwRXx4Fg/0.jpg"
+            alt=""
+          >
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 

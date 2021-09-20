@@ -1,6 +1,6 @@
 <template>
   <div class="h-14">
-    <nav class="fixed w-full h-14 p-2 flex justify-between items-center bg-green-600 shadow-md">
+    <nav class="fixed z-10 w-full h-14 p-2 flex justify-between items-center bg-green-600 shadow-md">
       <div class="w-10 h-10 hidden sm:block bg-white opacity-30"></div>
       <span class="mx-1 text-white font-medium sm:text-center sm:text-lg lg:text-xl">{{ title }}</span>
       <button class="w-10 h-10 flex justify-center items-center rounded-sm hover:bg-transparent-white active:bg-transparent-black transition duration-150" @click="$emit('openSidenav')">
