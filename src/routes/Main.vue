@@ -22,9 +22,7 @@
       </div>
     </template>
     
-    <!-- Contenido (Descripción si no se especifíca un ID, de lo contrario mostrar el video / 360 / fotos) -->
-    <!-- División -->
-    <!-- Lista de videos del mismo tema -->
+    <hr class="border-black border-opacity-20 my-1 mx-2 sm:mx-6">
   </div>
 </template>
 
