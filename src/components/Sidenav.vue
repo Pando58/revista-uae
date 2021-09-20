@@ -1,5 +1,9 @@
 <template>
-  <div @click.self="hide" class="overlay bg-black fixed w-screen h-screen top-0 left-0 z-10 transition duration-500" :class="{ active: active ? 'active' : '', showing: showing ? 'showing': '' }">
+  <div 
+    @click.self="hide"
+    class="overlay bg-black fixed w-screen h-screen top-0 left-0 z-20 transition duration-500"
+    :class="{ active: active ? 'active' : '', showing: showing ? 'showing': '' }"
+  >
     <div class="sidenav h-full w-screen sm:w-80 float-right p-2 bg-white shadow-lg transition duration-500 overflow-y-auto">
       <ul class="text-sm font-medium text-gray-500">
         <div v-for="(entry, index) in menu" v-bind:key="entry">
