@@ -2,11 +2,15 @@
   <Sidenav ref="snav"></Sidenav>
   <Header @openSidenav="openSidenav"></Header>
   <div class="p-3">
-    <template v-if="content.type === 'template'">
-      <div v-html="content.html"></div>
-    </template>
-    <template v-else-if="content.type === 'video'">
-      <div class="p-4 sm:p-10 md:px-20 flex justify-center">
+    <template v-if="content">
+      <div
+        v-if="content.type === 'template'"
+        v-html="content.html"
+      ></div>
+      <div
+        v-else-if="content.type === 'video'"
+        class="p-4 sm:p-10 md:px-20 flex justify-center"
+      >
         <div class="max-w-screen-lg w-full">
           <div class="relative" style="padding-top: 56.25%">
             <iframe
@@ -24,21 +28,22 @@
     
     <hr class="border-black border-opacity-20 my-1 mx-2 sm:mx-6">
 
-    <template v-if="list">
-      <div class="flex flex-wrap justify-center">
-        <div class="w-44 sm:w-56 m-4" v-for="elem in list.content" :key="elem">
-          <h6 class="text-center text-sm font-semibold mb-1">{{ elem.title }}</h6>
-          <div class="relative" style="padding-top: 56.25%">
-            <img
-              class="absolute inset-0 w-full h-full object-cover shadow-md cursor-pointer transform hover:scale-110 transition duration-150"
-              :src="`${list.urlPrefix}${elem.imgUrl}${list.urlSuffix}`"
-              :alt="elem.title"
-              @click="navToId(elem.id)"
-            >
-          </div>
+    <div
+      v-if="list"
+      class="flex flex-wrap justify-center"
+    >
+      <div class="w-44 sm:w-56 m-4" v-for="elem in list.content" :key="elem">
+        <h6 class="text-center text-sm font-semibold mb-1">{{ elem.title }}</h6>
+        <div class="relative" style="padding-top: 56.25%">
+          <img
+            class="absolute inset-0 w-full h-full object-cover shadow-md cursor-pointer transform hover:scale-110 transition duration-150"
+            :src="`${list.urlPrefix}${elem.imgUrl}${list.urlSuffix}`"
+            :alt="elem.title"
+            @click="navToId(elem.id)"
+          >
         </div>
       </div>
-    </template>
+    </div>
   </div>
 </template>
 
