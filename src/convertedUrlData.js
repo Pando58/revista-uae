@@ -1,6 +1,6 @@
 import { computed } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
-import { sidenav, sections } from '@/contenido.json'
+import { sidenav, sections, lists } from '@/contenido.json'
 
 const formatURL = () => {
   const router = useRouter();
@@ -83,4 +83,21 @@ const getSectionContent = () => {
   });
 }
 
-export { formatURL, getTitle, getSectionContent };
+const getList = () => {
+  const route = useRoute();
+
+  return computed(() => {
+    const sec = route.query.hasOwnProperty('sec') && !isNaN(parseInt(route.query.sec)) ? parseInt(route.query.sec) : null;
+
+    const secContent = sections.find(i => i.sec === sec);
+
+    if (!secContent) return null;
+    if (!secContent.hasOwnProperty('list')) return null;
+
+    const list = lists.find(i => i.list === secContent.list);
+    
+    return list || null;
+  });
+}
+
+export { formatURL, getTitle, getSectionContent, getList };

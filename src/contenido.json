@@ -54,7 +54,7 @@
     },
     {
       "sec": 0,
-      "list": "videos",
+      "list": "licenciaturas",
       "data": {
         "type": "template",
         "html": "<p>Introducción a la sección <b>licenciaturas</b></p>"
@@ -80,7 +80,7 @@
     },
     {
       "sec": 1,
-      "list": "videos",
+      "list": "licenciaturas",
       "data": {
         "type": "template",
         "html": "<p>Introducción a la sección <b>talleres</b></p>"
@@ -108,12 +108,12 @@
 
   "lists": [
     {
-      "list": "videos",
-      "urlPrefix": "",
-      "urlSuffix": "",
+      "list": "licenciaturas",
+      "urlPrefix": "https://img.youtube.com/vi/",
+      "urlSuffix": "/0.jpg",
       "content": [
-        { "imgUrl": "", "title": "", "id": 0 },
-        { "imgUrl": "", "title": "", "id": 1 }
+        { "id": 0, "imgUrl": "ZmxBw_w5nqA", "title": "Uno" },
+        { "id": 1, "imgUrl": "hZD-LzigJBE", "title": "Dos" }
       ]
     }
   ]
