@@ -4,7 +4,11 @@
     class="overlay bg-black fixed w-screen h-screen top-0 left-0 z-20 transition duration-500"
     :class="{ active: active ? 'active' : '', showing: showing ? 'showing': '' }"
   >
-    <div class="sidenav h-full w-screen sm:w-80 float-right p-2 bg-white shadow-lg transition duration-500 overflow-y-auto">
+    <div class="sidenav h-full w-screen xs:w-80 float-right p-2 bg-white shadow-lg transition duration-500 overflow-y-auto">
+      <i
+        class="fas fa-times pl-1 text-gray-400 cursor-pointer xs:hidden"
+        @click="hide"
+      ></i>
       <ul class="text-sm font-medium text-gray-500">
         <div v-for="(entry, index) in menu" v-bind:key="entry">
           <li class="p-2 text-black flex items-center">
