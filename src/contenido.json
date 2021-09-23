@@ -60,48 +60,109 @@
         "html": "<p>Introducción a la sección <b>licenciaturas</b></p>"
       },
       "elements": [
-        {
-          "id": 0,
-          "data": {
-            "type": "video",
-            "v": "ZmxBw_w5nqA",
-            "title": " Diseño Gráfico"
-          }
-        },
-        {
-          "id": 1,
-          "data": {
-            "type": "video",
-            "v": "hZD-LzigJBE",
-            "title": "Administración y Gestión Empresarial"
-          }
-        }
+        { "id": 0, "data": { "type": "video", "v": "ku6xuEjYcQk", "title": "Administración" } },
+        { "id": 1, "data": { "type": "video", "v": "pjpej3avi2s", "title": "Arquitectura y Desarrollo Urbano" } },
+        { "id": 2, "data": { "type": "video", "v": "WRQXiDiZHng", "title": "Comercio Internacional" } },
+        { "id": 3, "data": { "type": "video", "v": "chhHf9Z1fCs", "title": "Ciencias de la Comunicación" } },
+        { "id": 4, "data": { "type": "video", "v": "SS6JakP9mZ0", "title": "Computación Administrativa" } },
+        { "id": 5, "data": { "type": "video", "v": "gKLRKXVqBwI", "title": "Contaduría y Auditoría" } },
+        { "id": 6, "data": { "type": "video", "v": "iDnvmfoRvOs", "title": "Derecho y Criminología" } },
+        { "id": 7, "data": { "type": "video", "v": "3FhLsXHKRmM", "title": "Diseño Gráfico" } },
+        { "id": 8, "data": { "type": "video", "v": "CA6lwgkY0fU", "title": "Lenguas Modernas" } },
+        { "id": 9, "data": { "type": "video", "v": "6ABRwjlBkcQ", "title": "Mercadotecnia y Publicidad" } },
+        { "id": 10, "data": { "type": "video", "v": "2UQUBRA6OyI", "title": "Psicología Industrial" } },
+        { "id": 11, "data": { "type": "video", "v": "LDDatWi0OUk", "title": "Sistemas Computacionales" } },
+        { "id": 12, "data": { "type": "video", "v": "lpXyKrp7_7Y", "title": "Ing. en Diseño Industrial Automotriz" } },
+        { "id": 13, "data": { "type": "video", "v": "ZOGa1AUTWIQ", "title": "Ing. en Diseño Mecánico Automotriz" } }
       ]
     },
     {
       "sec": 1,
-      "list": "licenciaturas",
+      "list": "talleres",
       "data": {
         "type": "template",
         "html": "<p>Introducción a la sección <b>talleres</b></p>"
       },
       "elements": [
-        {
-          "id": 0,
-          "data": {
-            "type": "video",
-            "v": "EJ-ieHfdCa4",
-            "title": " Acondicionamiento Físico"
-          }
-        },
-        {
-          "id": 1,
-          "data": {
-            "type": "video",
-            "v": "O8N6yThba9s",
-            "title": "Ajedrez"
-          }
-        }
+        { "id": 0, "data": { "type": "video", "v": "85TsQ0T0MU8", "title": "Meditación" } },
+        { "id": 1, "data": { "type": "video", "v": "G0edYV0c2Fo", "title": "Baloncesto" } },
+        { "id": 2, "data": { "type": "video", "v": "76fT6iFJR_k", "title": "Banda de Música" } },
+        { "id": 3, "data": { "type": "video", "v": "nycs8umk7rg", "title": "Banderas" } },
+        { "id": 4, "data": { "type": "video", "v": "RAr4M2yi97Y", "title": "Acondicionamiento Físico" } },
+        { "id": 5, "data": { "type": "video", "v": "sWtz2U9KBbQ", "title": "Ajedrez" } },
+        { "id": 6, "data": { "type": "video", "v": "YaTYecZdibI", "title": "Arte del Desplazamiento (Parkour)" } },
+        { "id": 7, "data": { "type": "video", "v": "7Rea062STGw", "title": "Astrología" } },
+        { "id": 8, "data": { "type": "video", "v": "c84YNIHuhes", "title": "Atletismo" } },
+        { "id": 9, "data": { "type": "video", "v": "R7t7bKZhgzo", "title": "Baile en Barra" } },
+        { "id": 10, "data": { "type": "video", "v": "vsggoY9jlVU", "title": "Ballet" } },
+        { "id": 11, "data": { "type": "video", "v": "vO1j9xkNbcA", "title": "Danza Urbana" } },
+        { "id": 12, "data": { "type": "video", "v": "EHIi2dLdog0", "title": "Canto" } },
+        { "id": 13, "data": { "type": "video", "v": "GTrT7Vxn6cE", "title": "Capoeira" } },
+        { "id": 14, "data": { "type": "video", "v": "nD9I3hTs0go", "title": "Ciclismo" } },
+        { "id": 15, "data": { "type": "video", "v": "VXmfgNLtTco", "title": "Ciencia de la Respiración" } },
+        { "id": 16, "data": { "type": "video", "v": "u8HjqgG-4Q0", "title": "Cine" } },
+        { "id": 17, "data": { "type": "video", "v": "bhwUug0YIf0", "title": "Danza Árabe" } },
+        { "id": 18, "data": { "type": "video", "v": "2A0-t8_z3FQ", "title": "Danza Aérea" } },
+        { "id": 19, "data": { "type": "video", "v": "5rYcN8krV5E", "title": "Danza Folklórica" } },
+        { "id": 20, "data": { "type": "video", "v": "pPTmbsIGqPY", "title": "Danza Prehispánica" } },
+        { "id": 21, "data": { "type": "video", "v": "jnNzG3kM3zM", "title": "Ecología" } },
+        { "id": 22, "data": { "type": "video", "v": "Z6mNPNoVn74", "title": "Educación Para La Salud" } },
+        { "id": 23, "data": { "type": "video", "v": "ctlAS5h4ktE", "title": "Escultura" } },
+        { "id": 24, "data": { "type": "video", "v": "oRnd8P5-RvE", "title": "Estilismo" } },
+        { "id": 25, "data": { "type": "video", "v": "6ogrmLlx3tQ", "title": "Felicidad" } },
+        { "id": 26, "data": { "type": "video", "v": "yc440RBX5us", "title": "Fisicoculturismo" } },
+        { "id": 27, "data": { "type": "video", "v": "UEajd9l9au0", "title": "Fotografía" } },
+        { "id": 28, "data": { "type": "video", "v": "7H7DGhkN4iY", "title": "Gastronomía" } },
+        { "id": 29, "data": { "type": "video", "v": "2En6RJ1w3us", "title": "Gimnasia Rítmica" } },
+        { "id": 30, "data": { "type": "video", "v": "ruHTyOx_fag", "title": "Guitarra" } },
+        { "id": 31, "data": { "type": "video", "v": "jeKILRZF2-A", "title": "Manualidades" } },
+        { "id": 32, "data": { "type": "video", "v": "bEtEnx4KfKs", "title": "Hawaiano" } },
+        { "id": 33, "data": { "type": "video", "v": "nkFda60U4MY", "title": "Imagen" } },
+        { "id": 34, "data": { "type": "video", "v": "UyhbpyoqGis", "title": "Hidroterapia" } },
+        { "id": 35, "data": { "type": "video", "v": "IGcNCb5JjG4", "title": "Inglés y Alemán" } },
+        { "id": 36, "data": { "type": "video", "v": "DTiRyox2oUU", "title": "Jardinería" } },
+        { "id": 37, "data": { "type": "video", "v": "C_smgQDteFM", "title": "Juego de Pelota" } },
+        { "id": 38, "data": { "type": "video", "v": "Jy-qx5yRqE4", "title": "Kendo" } },
+        { "id": 39, "data": { "type": "video", "v": "RZqEEnfeIbI", "title": "Kung Fu" } },
+        { "id": 40, "data": { "type": "video", "v": "6XBemrwcAyI", "title": "Lectura" } },
+        { "id": 41, "data": { "type": "video", "v": "bs7sQgcfDAE", "title": "Porras" } },
+        { "id": 42, "data": { "type": "video", "v": "SEYTxWC990k", "title": "Masaje" } },
+        { "id": 43, "data": { "type": "video", "v": "ebhRsZU6Po4", "title": "Natación" } },
+        { "id": 44, "data": { "type": "video", "v": "r5d9EvVeqkA", "title": "Oratoria" } },
+        { "id": 45, "data": { "type": "video", "v": "hzDyJHusXEQ", "title": "Panderos" } },
+        { "id": 46, "data": { "type": "video", "v": "sUVqiypKwRc", "title": "Para Ser Mejor" } },
+        { "id": 47, "data": { "type": "video", "v": "RoQVTTGvXYE", "title": "Patinaje" } },
+        { "id": 48, "data": { "type": "video", "v": "IJRoHQbt6Ls", "title": "Patineta" } },
+        { "id": 49, "data": { "type": "video", "v": "Q_nRNqWGYbc", "title": "Pintura y Dibujo" } },
+        { "id": 50, "data": { "type": "video", "v": "qG3xGtEWkos", "title": "Violín" } },
+        { "id": 51, "data": { "type": "video", "v": "_SEqclEe8tU", "title": "Primeros Auxilios" } },
+        { "id": 52, "data": { "type": "video", "v": "2bMLL6fw7J8", "title": "Remo" } },
+        { "id": 53, "data": { "type": "video", "v": "48S4R7Hy1wg", "title": "Rondalla" } },
+        { "id": 54, "data": { "type": "video", "v": "CjiywWqy4DE", "title": "Salsa y Bachata" } },
+        { "id": 55, "data": { "type": "video", "v": "DO795W0Kh64", "title": "Senderismo" } },
+        { "id": 56, "data": { "type": "video", "v": "QZuV9Mx38kM", "title": "Tahitiano" } },
+        { "id": 57, "data": { "type": "video", "v": "8ZtId62Ei-g", "title": "Teatro" } },
+        { "id": 58, "data": { "type": "video", "v": "bAGFJE4GEgY", "title": "Temazcal" } },
+        { "id": 59, "data": { "type": "video", "v": "r0F1hiFay_s", "title": "Turismo" } },
+        { "id": 60, "data": { "type": "video", "v": "kktmV1XrlTo", "title": "Zumba" } },
+        { "id": 61, "data": { "type": "video", "v": "aiuLZA3Fsv8", "title": "Voleibol" } },
+        { "id": 62, "data": { "type": "video", "v": "RzXFGS2CB8w", "title": "Yoga" } }
+      ]
+    },
+    {
+      "sec": 2,
+      "list": "eventos",
+      "data": {
+        "type": "template",
+        "html": "<p>Introducción a la sección <b>eventos</b></p>"
+      },
+      "elements": [
+        { "id": 0, "data": { "type": "video", "v": "R5MFh-cCQNI", "title": "Ofrendas en TV Azteca" } },
+        { "id": 1, "data": { "type": "video", "v": "K0FPIrfQUdA", "title": "Ofrendas en Televisa" } },
+        { "id": 2, "data": { "type": "video", "v": "SvY68tl7W9U", "title": "Ceremonia de Graduación 2016-2019" } },
+        { "id": 3, "data": { "type": "video", "v": "wrCFDf3Hp0c", "title": "Fiesta de Disfraces" } },
+        { "id": 4, "data": { "type": "video", "v": "GKDlW9dKg1M", "title": "Día de las Madres" } },
+        { "id": 5, "data": { "type": "video", "v": "Lyo5BHN8VLs", "title": "Visita al Museo del Ejército Mexicano" } }
       ]
     }
   ],
@@ -112,8 +173,103 @@
       "urlPrefix": "https://img.youtube.com/vi/",
       "urlSuffix": "/0.jpg",
       "content": [
-        { "id": 0, "imgUrl": "ZmxBw_w5nqA", "title": "Uno" },
-        { "id": 1, "imgUrl": "hZD-LzigJBE", "title": "Dos" }
+        { "id": 0, "imgUrl": "ku6xuEjYcQk", "title": "Administración" },
+        { "id": 1, "imgUrl": "pjpej3avi2s", "title": "Arquitectura y Desarrollo Urbano" },
+        { "id": 2, "imgUrl": "WRQXiDiZHng", "title": "Comercio Internacional" },
+        { "id": 3, "imgUrl": "chhHf9Z1fCs", "title": "Ciencias de la Comunicación" },
+        { "id": 4, "imgUrl": "SS6JakP9mZ0", "title": "Computación Administrativa" },
+        { "id": 5, "imgUrl": "gKLRKXVqBwI", "title": "Contaduría y Auditoría" },
+        { "id": 6, "imgUrl": "iDnvmfoRvOs", "title": "Derecho y Criminología" },
+        { "id": 7, "imgUrl": "3FhLsXHKRmM", "title": "Diseño Gráfico" },
+        { "id": 8, "imgUrl": "CA6lwgkY0fU", "title": "Lenguas Modernas" },
+        { "id": 9, "imgUrl": "6ABRwjlBkcQ", "title": "Mercadotecnia y Publicidad" },
+        { "id": 10, "imgUrl": "2UQUBRA6OyI", "title": "Psicología Industrial" },
+        { "id": 11, "imgUrl": "LDDatWi0OUk", "title": "Sistemas Computacionales" },
+        { "id": 12, "imgUrl": "lpXyKrp7_7Y", "title": "Ing. en Diseño Industrial Automotriz" },
+        { "id": 13, "imgUrl": "ZOGa1AUTWIQ", "title": "Ing. en Diseño Mecánico Automotriz" }
+      ]
+    },
+    {
+      "list": "talleres",
+      "urlPrefix": "https://img.youtube.com/vi/",
+      "urlSuffix": "/0.jpg",
+      "content": [
+        { "id": 0, "imgUrl": "85TsQ0T0MU8", "title": "Meditación" },
+        { "id": 1, "imgUrl": "G0edYV0c2Fo", "title": "Baloncesto" },
+        { "id": 2, "imgUrl": "76fT6iFJR_k", "title": "Banda de Música" },
+        { "id": 3, "imgUrl": "nycs8umk7rg", "title": "Banderas" },
+        { "id": 4, "imgUrl": "RAr4M2yi97Y", "title": "Acondicionamiento Físico" },
+        { "id": 5, "imgUrl": "sWtz2U9KBbQ", "title": "Ajedrez" },
+        { "id": 6, "imgUrl": "YaTYecZdibI", "title": "Arte del Desplazamiento (Parkour)" },
+        { "id": 7, "imgUrl": "7Rea062STGw", "title": "Astrología" },
+        { "id": 8, "imgUrl": "c84YNIHuhes", "title": "Atletismo" },
+        { "id": 9, "imgUrl": "R7t7bKZhgzo", "title": "Baile en Barra" },
+        { "id": 10, "imgUrl": "vsggoY9jlVU", "title": "Ballet" },
+        { "id": 11, "imgUrl": "vO1j9xkNbcA", "title": "Danza Urbana" },
+        { "id": 12, "imgUrl": "EHIi2dLdog0", "title": "Canto" },
+        { "id": 13, "imgUrl": "GTrT7Vxn6cE", "title": "Capoeira" },
+        { "id": 14, "imgUrl": "nD9I3hTs0go", "title": "Ciclismo" },
+        { "id": 15, "imgUrl": "VXmfgNLtTco", "title": "Ciencia de la Respiración" },
+        { "id": 16, "imgUrl": "u8HjqgG-4Q0", "title": "Cine" },
+        { "id": 17, "imgUrl": "bhwUug0YIf0", "title": "Danza Árabe" },
+        { "id": 18, "imgUrl": "2A0-t8_z3FQ", "title": "Danza Aérea" },
+        { "id": 19, "imgUrl": "5rYcN8krV5E", "title": "Danza Folklórica" },
+        { "id": 20, "imgUrl": "pPTmbsIGqPY", "title": "Danza Prehispánica" },
+        { "id": 21, "imgUrl": "jnNzG3kM3zM", "title": "Ecología" },
+        { "id": 22, "imgUrl": "Z6mNPNoVn74", "title": "Educación Para La Salud" },
+        { "id": 23, "imgUrl": "ctlAS5h4ktE", "title": "Escultura" },
+        { "id": 24, "imgUrl": "oRnd8P5-RvE", "title": "Estilismo" },
+        { "id": 25, "imgUrl": "6ogrmLlx3tQ", "title": "Felicidad" },
+        { "id": 26, "imgUrl": "yc440RBX5us", "title": "Fisicoculturismo" },
+        { "id": 27, "imgUrl": "UEajd9l9au0", "title": "Fotografía" },
+        { "id": 28, "imgUrl": "7H7DGhkN4iY", "title": "Gastronomía" },
+        { "id": 29, "imgUrl": "2En6RJ1w3us", "title": "Gimnasia Rítmica" },
+        { "id": 30, "imgUrl": "ruHTyOx_fag", "title": "Guitarra" },
+        { "id": 31, "imgUrl": "jeKILRZF2-A", "title": "Manualidades" },
+        { "id": 32, "imgUrl": "bEtEnx4KfKs", "title": "Hawaiano" },
+        { "id": 33, "imgUrl": "nkFda60U4MY", "title": "Imagen" },
+        { "id": 34, "imgUrl": "UyhbpyoqGis", "title": "Hidroterapia" },
+        { "id": 35, "imgUrl": "IGcNCb5JjG4", "title": "Inglés y Alemán" },
+        { "id": 36, "imgUrl": "DTiRyox2oUU", "title": "Jardinería" },
+        { "id": 37, "imgUrl": "C_smgQDteFM", "title": "Juego de Pelota" },
+        { "id": 38, "imgUrl": "Jy-qx5yRqE4", "title": "Kendo" },
+        { "id": 39, "imgUrl": "RZqEEnfeIbI", "title": "Kung Fu" },
+        { "id": 40, "imgUrl": "6XBemrwcAyI", "title": "Lectura" },
+        { "id": 41, "imgUrl": "bs7sQgcfDAE", "title": "Porras" },
+        { "id": 42, "imgUrl": "SEYTxWC990k", "title": "Masaje" },
+        { "id": 43, "imgUrl": "ebhRsZU6Po4", "title": "Natación" },
+        { "id": 44, "imgUrl": "r5d9EvVeqkA", "title": "Oratoria" },
+        { "id": 45, "imgUrl": "hzDyJHusXEQ", "title": "Panderos" },
+        { "id": 46, "imgUrl": "sUVqiypKwRc", "title": "Para Ser Mejor" },
+        { "id": 47, "imgUrl": "RoQVTTGvXYE", "title": "Patinaje" },
+        { "id": 48, "imgUrl": "IJRoHQbt6Ls", "title": "Patineta" },
+        { "id": 49, "imgUrl": "Q_nRNqWGYbc", "title": "Pintura y Dibujo" },
+        { "id": 50, "imgUrl": "qG3xGtEWkos", "title": "Violín" },
+        { "id": 51, "imgUrl": "_SEqclEe8tU", "title": "Primeros Auxilios" },
+        { "id": 52, "imgUrl": "2bMLL6fw7J8", "title": "Remo" },
+        { "id": 53, "imgUrl": "48S4R7Hy1wg", "title": "Rondalla" },
+        { "id": 54, "imgUrl": "CjiywWqy4DE", "title": "Salsa y Bachata" },
+        { "id": 55, "imgUrl": "DO795W0Kh64", "title": "Senderismo" },
+        { "id": 56, "imgUrl": "QZuV9Mx38kM", "title": "Tahitiano" },
+        { "id": 57, "imgUrl": "8ZtId62Ei-g", "title": "Teatro" },
+        { "id": 58, "imgUrl": "bAGFJE4GEgY", "title": "Temazcal" },
+        { "id": 59, "imgUrl": "r0F1hiFay_s", "title": "Turismo" },
+        { "id": 60, "imgUrl": "kktmV1XrlTo", "title": "Zumba" },
+        { "id": 61, "imgUrl": "aiuLZA3Fsv8", "title": "Voleibol" },
+        { "id": 62, "imgUrl": "RzXFGS2CB8w", "title": "Yoga" }
+      ]
+    },
+    {
+      "list": "eventos",
+      "urlPrefix": "https://img.youtube.com/vi/",
+      "urlSuffix": "/0.jpg",
+      "content": [
+        { "id": 0, "imgUrl": "R5MFh-cCQNI", "title": "Ofrendas en TV Azteca" },
+        { "id": 1, "imgUrl": "K0FPIrfQUdA", "title": "Ofrendas en Televisa" },
+        { "id": 2, "imgUrl": "SvY68tl7W9U", "title": "Ceremonia de Graduación 2016-2019" },
+        { "id": 3, "imgUrl": "wrCFDf3Hp0c", "title": "Fiesta de Disfraces" },
+        { "id": 4, "imgUrl": "GKDlW9dKg1M", "title": "Día de las Madres" },
+        { "id": 5, "imgUrl": "Lyo5BHN8VLs", "title": "Visita al Museo del Ejército Mexicano" }
       ]
     }
   ]
