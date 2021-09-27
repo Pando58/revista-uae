@@ -57,7 +57,7 @@
       "list": "licenciaturas",
       "data": {
         "type": "template",
-        "html": "<p>Introducción a la sección <b>licenciaturas</b></p>"
+        "html": ""
       },
       "elements": [
         { "id": 0, "data": { "type": "video", "v": "ku6xuEjYcQk", "title": "Administración" } },
@@ -81,7 +81,7 @@
       "list": "talleres",
       "data": {
         "type": "template",
-        "html": "<p>Introducción a la sección <b>talleres</b></p>"
+        "html": ""
       },
       "elements": [
         { "id": 0, "data": { "type": "video", "v": "85TsQ0T0MU8", "title": "Meditación" } },
@@ -154,7 +154,7 @@
       "list": "eventos",
       "data": {
         "type": "template",
-        "html": "<p>Introducción a la sección <b>eventos</b></p>"
+        "html": ""
       },
       "elements": [
         { "id": 0, "data": { "type": "video", "v": "R5MFh-cCQNI", "title": "Ofrendas en TV Azteca" } },
@@ -168,6 +168,63 @@
     {
       "sec": 3,
       "data": { "type": "360", "v": "154e1a93f6234b438d5392dae873708a" }
+    },
+    {
+      "sec": 4,
+      "data": { "type": "360", "v": "e07a6e9761b24b8c8ecd060fbc5209d8" }
+    },
+    {
+      "sec": 5,
+      "data": { "type": "360", "v": "0331120b7b374c8abec3aa5d4a3977d1" }
+    },
+    {
+      "sec": 6,
+      "data": { "type": "360", "v": "a9b3b8d627ef4990a443d9557352899c" }
+    },
+    {
+      "sec": 7,
+      "data": { "type": "360", "v": "9cb55ccfccd749f7b5fb1475576ca9c4" }
+    },
+    {
+      "sec": 8,
+      "data": { "type": "360", "v": "1be9ccfd2223486ba6ebe77ede577643" }
+    },
+    {
+      "sec": 9,
+      "data": { "type": "360", "v": "d32c3724ad6442249e4e13e66a7c9faa" }
+    },
+    {
+      "sec": 10,
+      "data": { "type": "360", "v": "3a96363263374addaa3778048667c1c7" }
+    },
+    {
+      "sec": 11,
+      "data": { "type": "360", "v": "ad702550161543c0b0c0305a8fadf62d" }
+    },
+    {
+      "sec": 12,
+      "data": { "type": "360", "v": "a79138132f99440588ff8f4b71fa36b4" }
+    },
+    {
+      "sec": 13,
+      "data": { "type": "360", "v": "5559b588b6134ec2adae57a65df343e9" }
+    },
+    {
+      "sec": 14,
+      "list": "honoris_causa",
+      "elements": [
+        { "id": 0, "data": { "type": "360", "v": "2f64eda5673745c4959e0ef6dc30ff03" } },
+        { "id": 1, "data": { "type": "360", "v": "106532106f94401db0f09b18074a13a8" } },
+        { "id": 2, "data": { "type": "360", "v": "f816f0ee1489458198214507bffecc7f" } },
+        { "id": 3, "data": { "type": "360", "v": "86dac7ecd94c469fa303e7cc88a12bdf" } },
+        { "id": 4, "data": { "type": "360", "v": "a3363d7cf730405dab51c6f1cecb7d71" } },
+        { "id": 5, "data": { "type": "360", "v": "5559b588b6134ec2adae57a65df343e9" } },
+        { "id": 6, "data": { "type": "360", "v": "5322124eeeb246f0a23c40730f2cf9f0" } }
+      ]
+    },
+    {
+      "sec": 15,
+      "data": { "type": "360", "v": "5ebfb0acfdea49f785f47158ff136783" }
     }
   ],
 
@@ -274,6 +331,20 @@
         { "id": 3, "imgUrl": "wrCFDf3Hp0c", "title": "Fiesta de Disfraces" },
         { "id": 4, "imgUrl": "GKDlW9dKg1M", "title": "Día de las Madres" },
         { "id": 5, "imgUrl": "Lyo5BHN8VLs", "title": "Visita al Museo del Ejército Mexicano" }
+      ]
+    },
+    {
+      "list": "honoris_causa",
+      "urlPrefix": "https://unialvaedison.edu.mx/revista/pagina/miniaturas/",
+      "urlSuffix": ".png",
+      "content": [
+        { "id": 0, "imgUrl": "buda", "title": "Salón Buda" },
+        { "id": 1, "imgUrl": "serge", "title": "Salón Serge" },
+        { "id": 2, "imgUrl": "gandhi", "title": "Salón Gandhi" },
+        { "id": 3, "imgUrl": "pitagoras", "title": "Salón Pitágoras" },
+        { "id": 4, "imgUrl": "jesus", "title": "Salón Jesús" },
+        { "id": 5, "imgUrl": "guadalupe", "title": "Salón Guadalupe" },
+        { "id": 6, "imgUrl": "quetzalcoatl", "title": "Salón Quetzalcóatl" }
       ]
     }
   ]
