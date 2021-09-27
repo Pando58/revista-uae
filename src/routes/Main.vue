@@ -17,7 +17,7 @@
           <div class="relative" style="padding-top: 56.25%">
             <iframe
               :src="`https://www.youtube.com/embed/${content.v}`"
-              class="absolute inset-0 w-full h-full"
+              class="absolute inset-0 w-full h-full shadow-md"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
@@ -35,7 +35,7 @@
           <div class="relative" style="padding-top: 56.25%">
             <iframe
               :src="`https://momento360.com/e/u/${content.v}`"
-              class="absolute inset-0 w-full h-full"
+              class="absolute inset-0 w-full h-full shadow-md"
               frameborder="0"
               allowfullscreen
             ></iframe>
@@ -46,7 +46,7 @@
 
     </template>
     
-    <hr class="border-black border-opacity-20 my-1 mx-2 sm:mx-6">
+    <hr v-if="list" class="border-black border-opacity-20 my-1 mx-2 sm:mx-6">
 
     <div
       v-if="list"
