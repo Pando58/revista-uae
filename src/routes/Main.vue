@@ -30,7 +30,7 @@
 
     <div
       v-if="list"
-      class="flex flex-wrap justify-center"
+      class="flex flex-wrap items-end justify-center"
     >
       <div class="w-44 sm:w-56 m-4" v-for="elem in list.content" :key="elem">
         <h6 class="text-center text-sm font-semibold mb-1">{{ elem.title }}</h6>
