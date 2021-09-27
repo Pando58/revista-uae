@@ -164,6 +164,10 @@
         { "id": 4, "data": { "type": "video", "v": "GKDlW9dKg1M", "title": "Día de las Madres" } },
         { "id": 5, "data": { "type": "video", "v": "Lyo5BHN8VLs", "title": "Visita al Museo del Ejército Mexicano" } }
       ]
+    },
+    {
+      "sec": 3,
+      "data": { "type": "360", "v": "154e1a93f6234b438d5392dae873708a" }
     }
   ],
 

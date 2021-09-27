@@ -3,10 +3,12 @@
   <Header @openSidenav="openSidenav"></Header>
   <div class="p-3">
     <template v-if="content">
+
       <div
         v-if="content.type === 'template'"
         v-html="content.html"
       ></div>
+
       <div
         v-else-if="content.type === 'video'"
         class="p-4 sm:p-10 md:px-20 flex justify-center"
@@ -24,6 +26,24 @@
           <h3 class="text-center font-semibold sm:text-2xl lg:text-3xl mt-1 sm:mt-4">{{ content.title }}</h3>
         </div>
       </div>
+
+      <div
+        v-else-if="content.type === '360'"
+        class="p-4 sm:p-10 md:px-20 flex justify-center"
+      >
+        <div class="max-w-screen-lg w-full">
+          <div class="relative" style="padding-top: 56.25%">
+            <iframe
+              :src="`https://momento360.com/e/u/${content.v}`"
+              class="absolute inset-0 w-full h-full"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <h3 class="text-center font-semibold sm:text-2xl lg:text-3xl mt-1 sm:mt-4">{{ content.title }}</h3>
+        </div>
+      </div>
+
     </template>
     
     <hr class="border-black border-opacity-20 my-1 mx-2 sm:mx-6">
