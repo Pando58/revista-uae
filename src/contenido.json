@@ -4,7 +4,7 @@
       "name": "",
       "icon": "",
       "list": [
-        { "name": "Introducción", "sec": null }
+        { "name": "Revista", "sec": null }
       ]
     },
     {
@@ -49,16 +49,12 @@
       "sec": null,
       "data": {
         "type": "template",
-        "html": "<p>Introducción a la <b>revista</b></p>"
+        "html": "<iframe src=\"https://unialvaedison.edu.mx/revista/pagina/redirect.html\" class=\"w-full flex-grow\"></iframe>"
       }
     },
     {
       "sec": 0,
       "list": "licenciaturas",
-      "data": {
-        "type": "template",
-        "html": ""
-      },
       "elements": [
         { "id": 0, "data": { "type": "video", "v": "ku6xuEjYcQk", "title": "Administración" } },
         { "id": 1, "data": { "type": "video", "v": "pjpej3avi2s", "title": "Arquitectura y Desarrollo Urbano" } },
@@ -79,10 +75,6 @@
     {
       "sec": 1,
       "list": "talleres",
-      "data": {
-        "type": "template",
-        "html": ""
-      },
       "elements": [
         { "id": 0, "data": { "type": "video", "v": "85TsQ0T0MU8", "title": "Meditación" } },
         { "id": 1, "data": { "type": "video", "v": "G0edYV0c2Fo", "title": "Baloncesto" } },
@@ -152,10 +144,6 @@
     {
       "sec": 2,
       "list": "eventos",
-      "data": {
-        "type": "template",
-        "html": ""
-      },
       "elements": [
         { "id": 0, "data": { "type": "video", "v": "R5MFh-cCQNI", "title": "Ofrendas en TV Azteca" } },
         { "id": 1, "data": { "type": "video", "v": "K0FPIrfQUdA", "title": "Ofrendas en Televisa" } },

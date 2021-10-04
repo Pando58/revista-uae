@@ -1,10 +1,11 @@
 <template>
   <Sidenav ref="snav"></Sidenav>
   <Header @openSidenav="openSidenav"></Header>
-  <div class="p-3">
+  <div class="p-3 flex-grow flex flex-col">
     <template v-if="content">
 
       <div
+        class="flex-grow flex flex-col"
         v-if="content.type === 'template'"
         v-html="content.html"
       ></div>
