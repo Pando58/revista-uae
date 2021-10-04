@@ -44,6 +44,23 @@
         </div>
       </div>
 
+      <div
+        v-else-if="content.type === 'img'"
+        class="p-4 sm:p-10 md:px-20 flex justify-center"
+      >
+        <div class="max-w-screen-2xl w-full">
+          <div class="flex flex-wrap justify-between">
+            <img
+              class="h-40 flex-grow m-1 object-cover rounded-sm shadow-md transform hover:scale-110 hover:z-10 transition"
+              v-for="img in content.imgMin"
+              :key="img.src"
+              :src="`${content.urlPrefix}${img.src}${content.urlSuffix}`"
+              alt=""
+            >
+          </div>
+        </div>
+      </div>
+
     </template>
     
     <hr v-if="list" class="border-black border-opacity-20 my-1 mx-2 sm:mx-6">

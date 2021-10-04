@@ -225,6 +225,32 @@
     {
       "sec": 15,
       "data": { "type": "360", "v": "5ebfb0acfdea49f785f47158ff136783" }
+    },
+    {
+      "sec": 16,
+      "data": {
+        "type": "img",
+        "urlPrefix": "https://unialvaedison.edu.mx/revista/pagina/fotos/areaDeInvestigacion/min/",
+        "urlSuffix": ".jpg",
+        "imgMin": [
+          { "src": "1" },
+          { "src": "2" },
+          { "src": "3" },
+          { "src": "4" },
+          { "src": "5" },
+          { "src": "6" },
+          { "src": "7" },
+          { "src": "8" },
+          { "src": "9" },
+          { "src": "10" },
+          { "src": "11" },
+          { "src": "12" },
+          { "src": "13" },
+          { "src": "14" },
+          { "src": "15" },
+          { "src": "16" }
+        ]
+      }
     }
   ],
 

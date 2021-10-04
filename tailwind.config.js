@@ -23,7 +23,8 @@ module.exports = {
   variants: {
     extend: {
       backgroundColor: ['active'],
-      brightness: ['hover']
+      brightness: ['hover'],
+      zIndex: ['hover']
     },
   },
   plugins: [],
